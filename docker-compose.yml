@@ -1,0 +1,13 @@
+version: "3.10"
+
+services:
+  dl_lab:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ${PWD}:/workspace
+    working_dir: /workspace
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
