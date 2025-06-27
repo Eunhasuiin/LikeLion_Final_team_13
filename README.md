@@ -50,7 +50,7 @@
 │   └─── first_time_setup.md
 ├── .gitignore                 # 추적 제외 파일 설정
 └── README.md                  # 프로젝트 개요 (본 파일)
-
+```
 ## 🔄 2. 작업 흐름
 
 1. 자신의 폴더(`members/이름/`)에서 분석 진행
